@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus — Build What's Next</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+ 
+  <!-- ───────────── NAV ───────────── -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">NX<span>.</span></a>
+ 
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Get Started</a></li>
+      </ul>
+ 
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+ 
+  <!-- ───────────── HERO ───────────── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+ 
+    <div class="hero-content">
+      <div class="badge">✦ Now in Beta — Join 12,000+ builders</div>
+      <h1>Build<br /><em>What's</em><br />Next.</h1>
+      <p class="hero-sub">
+        Nexus is the design-to-deployment platform that turns ideas into
+        production-ready products — fast, collaborative, and endlessly scalable.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start for Free</a>
+        <a href="#features" class="btn btn-ghost">See How It Works ↓</a>
+      </div>
+    </div>
+ 
+    <div class="hero-scroll-hint">scroll</div>
+  </section>
+ 
+  <!-- ───────────── ABOUT ───────────── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-card-stack">
+            <div class="about-card ac-1">
+              <div class="ac-icon">⚡</div>
+              <span>10× Faster</span>
+            </div>
+            <div class="about-card ac-2">
+              <div class="ac-icon">🔒</div>
+              <span>Enterprise Security</span>
+            </div>
+            <div class="about-card ac-3">
+              <div class="ac-icon">🌍</div>
+              <span>Global CDN</span>
+            </div>
+            <div class="about-img-box">
+              <div class="stat-row">
+                <div class="stat"><span class="stat-num">99.9%</span><span class="stat-label">Uptime</span></div>
+                <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Countries</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="about-text">
+          <span class="section-tag">About Us</span>
+          <h2>We believe shipping fast shouldn't mean cutting corners.</h2>
+          <p>
+            Nexus was built by engineers who were tired of choosing between speed
+            and quality. Our platform gives teams a single workspace to design,
+            develop, test, and deploy — without duct tape.
+          </p>
+          <p>
+            From solo founders to Fortune 500 engineering teams, Nexus adapts to
+            how you work, not the other way around.
+          </p>
+          <a href="#features" class="btn btn-primary">Explore Features</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ───────────── FEATURES ───────────── -->
+  <section id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Features</span>
+        <h2>Everything your team needs, nothing it doesn't.</h2>
+      </div>
+ 
+      <div class="features-grid">
+ 
+        <div class="feature-card" data-index="01">
+          <div class="fc-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <rect x="3" y="3" width="10" height="10" rx="2" fill="currentColor" opacity=".9"/>
+              <rect x="15" y="3" width="10" height="10" rx="2" fill="currentColor" opacity=".5"/>
+              <rect x="3" y="15" width="10" height="10" rx="2" fill="currentColor" opacity=".5"/>
+              <rect x="15" y="15" width="10" height="10" rx="2" fill="currentColor" opacity=".9"/>
+            </svg>
+          </div>
+          <h3>Visual Workspace</h3>
+          <p>
+            Drag-and-drop component editor with live preview. Design pixel-perfect
+            interfaces without writing a single line of CSS — unless you want to.
+          </p>
+          <ul class="fc-list">
+            <li>Real-time collaboration</li>
+            <li>Component library</li>
+            <li>Auto-layout engine</li>
+          </ul>
+        </div>
+ 
+        <div class="feature-card feature-card--accent" data-index="02">
+          <div class="fc-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 3L25 8.5V19.5L14 25L3 19.5V8.5L14 3Z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <circle cx="14" cy="14" r="4" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>AI-Powered CI/CD</h3>
+          <p>
+            Intelligent pipelines that learn from your codebase. Predictive testing,
+            smart rollbacks, and zero-downtime deploys — all automated.
+          </p>
+          <ul class="fc-list">
+            <li>Auto-generated tests</li>
+            <li>One-click rollback</li>
+            <li>Canary deployments</li>
+          </ul>
+        </div>
+ 
+        <div class="feature-card" data-index="03">
+          <div class="fc-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M4 14C4 8.477 8.477 4 14 4s10 4.477 10 10-4.477 10-10 10S4 19.523 4 14z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M14 9v5l3.5 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Observability Suite</h3>
+          <p>
+            End-to-end tracing, real-user monitoring, and anomaly detection that
+            surfaces issues before your users ever notice them.
+          </p>
+          <ul class="fc-list">
+            <li>Distributed tracing</li>
+            <li>Custom dashboards</li>
+            <li>Smart alerting</li>
+          </ul>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ───────────── CONTACT ───────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-left">
+          <span class="section-tag">Contact</span>
+          <h2>Let's build something great together.</h2>
+          <p>Have a question or want to see Nexus in action? Drop us a note — our team responds within 24 hours.</p>
+ 
+          <div class="contact-info-list">
+            <div class="ci-item">
+              <div class="ci-dot"></div>
+              <span>hello@nexus.io</span>
+            </div>
+            <div class="ci-item">
+              <div class="ci-dot"></div>
+              <span>+1 (415) 000-0000</span>
+            </div>
+            <div class="ci-item">
+              <div class="ci-dot"></div>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+        </div>
+ 
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Alex" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Morgan" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="alex@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message →</button>
+          <p class="form-success" id="formSuccess">✓ Message sent! We'll be in touch soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ───────────── FOOTER ───────────── -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="logo">NX<span>.</span></a>
+          <p>Build faster. Ship smarter. Scale infinitely.</p>
+        </div>
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Changelog</a></li>
+              <li><a href="#">Roadmap</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Security</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Nexus Technologies, Inc. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
